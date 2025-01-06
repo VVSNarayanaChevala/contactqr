@@ -3,22 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Details</title>
+    <title>VVS Narayana Chevala</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .contact a {
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <h1>Contact Details</h1>
-    <pre id="contact"></pre>
-    <a id="download" href="#" download>Save to Contacts</a>
+    <header>
+        <h1>VVS Narayana Chevala</h1>
+        <p>Product Engineer & Data Scientist | Hyderabad, India</p>
+    </header>
 
-    <script>
-        // Fetch and display the VCF file
-        fetch('https://drive.google.com/uc?export=download&id=1AJzcr5rV8xbpXaVUUjiFpjRlpeL4WzLJ')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('contact').textContent = data;
-                document.getElementById('download').href = 'https://drive.google.com/uc?export=download&id=1AJzcr5rV8xbpXaVUUjiFpjRlpeL4WzLJ';
-            })
-            .catch(error => console.error('Error fetching the VCF file:', error));
-    </script>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Passionate and result-oriented product engineer and data scientist with over 12 years of experience leading data-driven innovation and digital transformation. Expertise in AI/ML, cloud technologies, and mathematical optimization to drive operational efficiency and sustainability.</p>
+        </section>
+
+        <section>
+            <h2>Core Competencies</h2>
+            <ul>
+                <li>AI/ML Development & Integration</li>
+                <li>Mathematical Optimization</li>
+                <li>Supply Chain Optimization</li>
+                <li>Sustainability Solutions</li>
+                <li>Generative AI for Customer Engagement</li>
+                <li>Cloud Technologies: Azure, AWS, Google Cloud</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            <h3>Manager – Digital Transformation & IT/Data Strategy</h3>
+            <p><strong>SeedWorks International Pvt Ltd | March 2020 – Present</strong></p>
+            <ul>
+                <li>Increased sales by 15% through advanced sales optimization models.</li>
+                <li>Automated seed blending, reducing lead times by 90% and waste by 50%.</li>
+                <li>Developed a carbon footprint estimation tool for supply chain sustainability.</li>
+                <li>Created a generative AI chatbot integrated with Google Search Engine.</li>
+            </ul>
+
+            <h3>Senior Project Manager – IT/Data Science</h3>
+            <p><strong>UnitedHealth Group (UHCP) | March 2019 – Jan 2020</strong></p>
+            <ul>
+                <li>Led AI-driven healthcare solutions for claims fraud detection.</li>
+                <li>Developed predictive analytics for insurance data initiatives.</li>
+            </ul>
+
+            <h3>Other Roles</h3>
+            <ul>
+                <li>Optimized fleet management at BlueDart DHL with AI/ML algorithms.</li>
+                <li>Developed predictive maintenance solutions at Godrej & Boyce Mfg. Co. Ltd.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p>M.Sc. in Bioinformatics | Pondicherry Central University, 2012</p>
+            <p>B.Sc. in Biotechnology | P.R. Govt. College (Andhra University), 2010</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:veeru.vsn@gmail.com">veeru.vsn@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/vvsnarayanachevala/" target="_blank">View Profile</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 VVS Narayana Chevala</p>
+    </footer>
 </body>
 </html>
